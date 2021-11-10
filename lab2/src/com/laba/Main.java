@@ -5,13 +5,12 @@ import com.laba.enums.LifeTimeType;
 import com.laba.enums.NaturePlantsType;
 import com.laba.enums.SeasonType;
 import com.laba.manager.NaturePlantsManager;
+import com.laba.nature_plants.Bush;
 import com.laba.nature_plants.Tree;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-
-
 
 
 public class Main {
@@ -140,6 +139,9 @@ public class Main {
         list.add(new Tree("Gryshka", NaturePlantsType.FRUIT,9.2,SeasonType.SUMMER, LifeTimeType.ONE_YEAR));
         list.add(new Tree("Modryna", NaturePlantsType.CONIFERS, 13.5, SeasonType.WINTER, LifeTimeType.ONE_YEAR));
         list.add(new Tree("Mango", NaturePlantsType.TROPICAL, 23.1, SeasonType.SUMMER, LifeTimeType.MANY_YEARS));
+
+        list.add(new Bush("Kalyna", 23.1, SeasonType.SUMMER, LifeTimeType.MANY_YEARS,13.4));
+        list.add(new Bush("Verba", 23.1, SeasonType.SUMMER, LifeTimeType.MANY_YEARS, 23.1));
 
         return list;
     }

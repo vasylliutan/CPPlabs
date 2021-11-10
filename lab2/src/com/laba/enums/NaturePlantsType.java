@@ -1,5 +1,5 @@
 package com.laba.enums;
 
 public enum NaturePlantsType {
-    FRUIT,CONIFERS,TROPICAL
+    FRUIT,CONIFERS,TROPICAL,BUSH
 }

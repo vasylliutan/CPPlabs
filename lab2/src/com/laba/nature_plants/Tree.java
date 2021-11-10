@@ -9,7 +9,7 @@ public class Tree {
     private SeasonType seasonType;
     private LifeTimeType lifeTimeType;
 
-        public Tree(String name, NaturePlantsType naturePlantsType, double consumeWater, SeasonType seasonType,LifeTimeType lifeTimeType ) {
+        public Tree(String name, NaturePlantsType naturePlantsType, double consumeWater, SeasonType seasonType, LifeTimeType lifeTimeType) {
         this.name = name;
         this.naturePlantsType = naturePlantsType;
         this.consumeWater = consumeWater;
@@ -17,7 +17,7 @@ public class Tree {
         this.lifeTimeType = lifeTimeType;
     }
 
-        public String getName() {
+    public String getName() {
         return name;
     }
 
@@ -25,7 +25,7 @@ public class Tree {
         return naturePlantsType;
     }
 
-        public double getConsumeWater() {
+    public double getConsumeWater() {
         return consumeWater;
     }
 
